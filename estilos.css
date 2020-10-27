@@ -1,3 +1,30 @@
-letras{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+    user-select: none;
+}
+
+header {
+    background-color:teal;
+    padding: 1px;
+    text-align: center;
+    color:#ccc;
+}
+
+nav {
+    border: 1px solid #c6c6c6;
+    cursor: pointer;    
+}
+nav li:hover{
+    color: teal;
+    text-indent: 2px;    
+}
+
+section {
+    border: 1px solid teal;
+}
+
+footer{
+    color: #ccc;
+    background-color: teal;
+    text-align: center;
 }
