@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <main>
+        <section>
+            <form action="">
+                <label for="nombre">
+                    <span>¿Cúal es tu nombre?</span>
+                    <input type="text" id="nombre" name="nombre" autocomplete="name">
+                </label><br>
+                <label for="inicio-platzi">
+                    <span>¿Qué día comenzaste en platzi?</span>
+                    <input type="datetime-local" id="inicio-platzi" name="inicio-platzi">                    
+                </label><br>
+                <label for="horario">
+                    <span>¿En qué horario estudias?</span>
+                    <input type="time" id="horario" >
+                </label><br>                
+                <label for="correo">
+                    <span>Correo</span>
+                    <input type="email" id="correo" name="correo">                    
+                </label><br>
+                <label for="pais">
+                    <span>País</span>
+                    <input type="text" id="pais" name="pais" autocomplete="country-name">
+                </label><br>
+                
+                <label for="cursos"><span>Cursos</span>
+                    <input id="cursos" name="cursos" list="lista-cursos">
+                    <datalist id="lista-cursos">
+                        <option value="JS"></option>
+                        <option value="HTML5"></option>
+                        <option value="CCS3"></option>
+                        <option value="PYTHON"></option>
+                    </datalist>                    
+                </label>
+                <button type="submit" >Guardar</button>
+                <button type="reset" >Cancelar</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
