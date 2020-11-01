@@ -4,6 +4,11 @@
   padding: 0;
   margin: 0;
 }
+/* Reglas de aplicación de estilos
+ 1- Importancia (orden de carga navegador, nuestro.css, !important)
+ 2- Especificidad (!important > inline style(embebidos) > #id > .class > tag)
+ 3- Orden en las fuentes (las declaraciones al final reescriben las declaraciones anteriores)
+*/
 
 .main-nav {
     margin-top: 10px;
@@ -39,5 +44,10 @@ main {
     height: 500px;
     padding: 20px 35px;    
     border: 10px solid grey;
+}
+
+html{
+  font-size: 75%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
