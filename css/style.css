@@ -1,4 +1,5 @@
-* { /*Resetea los valores adicionales que agrega el navegador al modelo de caja*/
+/*Resetea los valores adicionales que agrega el navegador al modelo de caja*/
+* { 
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -39,3 +40,4 @@ main {
     padding: 20px 35px;    
     border: 10px solid grey;
 }
+
