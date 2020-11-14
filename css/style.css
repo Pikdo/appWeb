@@ -9,7 +9,15 @@
  2- Especificidad (!important > inline style(embebidos) > #id > .class > tag)
  3- Orden en las fuentes (las declaraciones al final reescriben las declaraciones anteriores)
 */
+html{
+  font-size: 62.5%;
+}
 
+body{
+  font-size: 1.6rem;
+}
+
+/**MENU****/
 .main-nav {
     margin-top: 10px;
     list-style: none;
@@ -39,15 +47,35 @@
   content: " | ";
 }
 
-main {
-    width: 100%;
-    height: 500px;
-    padding: 20px 35px;    
-    border: 10px solid grey;
+/*main {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+}*/
+
+.container{
+  display: flex;
+  flex-wrap: wrap;  
 }
 
-html{
-  font-size: 75%;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.box{
+  width: 100%;
+  min-width: 150px;
+  height: 150px;
 }
 
+.b1{
+  background-color: navy;
+}
+.b2{
+  background-color: mediumblue;  
+}
+.b3{
+  background-color: lightskyblue;
+}
+.b4{
+  background-color: lightblue;
+}
+.b5{
+  background-color: gainsboro;
+}

@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="es"> <!--lang define el idioma-->
-    <head>
+    <head>  
+        <title>WebApp</title>
         <meta charset="UTF-8"> <!--Define la interpretación de caracteres-->
         <meta name="descripcion" content="Webapp de prueba"> <!-- Define la descripción de una página al buscarla -->
         <meta name="robots" content="index,folow">  <!--Define la autorización para el tracking de robots de buscadores-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Define la caracteristica inicial para responsive-->
-        <title>WebApp</title> 
-        <!--<link rel="stylesheet" href="css/normalize.css">-->
-        <link rel="stylesheet" href="css/style.css">         
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width:600px)">
+        <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width:1024px)">
     </head>
     <body> <!--Semantica de html-->
-        <header>
+        <!-- <header class="topbar">
             <img src="img/logo.png" alt="Logo">
             <h2>Header</h2>
             <nav>
@@ -21,16 +22,26 @@
                     <li class="main-nav__item"><a href="#Blog">Blog</a></li>
                 </ul>
             </nav>
-        </header>
-        <main>            
-            <section>
-                <article>
-                    <p>[CONTENIDO MAIN]</p>
-                </article>
-            </section>
+        </header> -->
+        <main class="container">
+            <div class="box b1">
+                <p>box 1</p>
+            </div>
+            <div class="box b2">
+                <p>box 2</p>
+            </div>
+            <div class="box b3">
+                <p>box 3</p>
+            </div>
+            <div class="box b4">
+                <p>box 4</p>
+            </div>
+            <div class="box b5">
+                <p>box 5</p>
+            </div>
         </main>
-        <footer>
+        <!-- <footer class="footerbar">
             <h2>Footer</h2>
-        </footer>
+        </footer> -->
     </body>
 </html>
