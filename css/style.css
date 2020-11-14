@@ -55,13 +55,15 @@ body{
 
 .container{
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: stretch;
 }
 
 .box{
   width: 100%;
   min-width: 150px;
-  height: 150px;
+  /*height: 150px;*/
 }
 
 .b1{

@@ -3,22 +3,9 @@
     margin: 0 auto;
 }
 
-.b1{
-    background-color: navy;    
-}
-.b2{
-    background-color: mediumblue;  
+.b2, .b4{    
     width: 30%;
 }
-.b3{
-    background-color: lightskyblue;
-    width: 70%;
-}
-.b4{
-    background-color: lightblue;
-    width: 30%;
-}
-.b5{
-    background-color: gainsboro;
+.b3, .b5{    
     width: 70%;
 }
