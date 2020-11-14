@@ -62,8 +62,7 @@ body{
 
 .box{
   width: 100%;
-  min-width: 150px;
-  /*height: 150px;*/
+  min-width: 150px; 
 }
 
 .b1{
@@ -80,4 +79,8 @@ body{
 }
 .b5{
   background-color: gainsboro;
+}
+
+img{
+  width: 100%;
 }
