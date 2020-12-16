@@ -1,4 +1,1 @@
-# appWeb
-# Práctica del curso de Github
-# José Alejandro Picado Brenes
-# 26/10/2020
+Proyecto de práctica del curso definitivo de HTML y CSS
